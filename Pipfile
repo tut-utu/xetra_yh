@@ -5,14 +5,16 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-jupyter = "*"
 boto3 = "*"
 pyarrow = "*"
 pyyaml = "*"
+
+
+[dev-packages]
+jupyter = "*"
 moto = "*"
 coverage = "*"
 
-[dev-packages]
 
 [requires]
 python_version = "3.10"
